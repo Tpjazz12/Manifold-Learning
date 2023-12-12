@@ -59,11 +59,14 @@
 * Detailed instructions for reproducing the study results and applying the models to new data will be included.
 
 ### Overview of files in repository
- .
-* `preprocess.ipynb`: Notebook for initial data preparation.
-* `models.py`: Definitions for manifold learning models.
-* `train.ipynb`: Notebook for model training.
-* `evaluate.ipynb`: Notebook for model evaluation and comparison.
+
+Each directory in the repository corresponds to a dataset and contains Jupyter notebooks for the manifold learning process and subsequent classification:
+
+*`MDS & ISO map embeddings.ipynb`: Notebooks for applying Multidimensional Scaling and Isomap techniques to datasets.
+*`Wassmap.ipynb`: Implementation of the Wasserstein map algorithm for manifold learning.
+*`tSNE & LocallyLinearEmbedding & SpectralEmbedding.ipynb`: Notebooks for applying t-SNE, Locally Linear Embedding, and Spectral Embedding algorithms to visualize datasets.
+
+The notebooks contain detailed steps for data processing, manifold learning model application, training classifiers, and evaluating the results. Each notebook is named according to the algorithms implemented within, making it easy to navigate and understand the content's purpose.
 
 ### Software Setup
 
@@ -84,3 +87,11 @@
 ## Citations
 
 * References to the foundational literature, including works by Peyré & Cuturi (2019) and Gonzalez-Castillo (2023), will be cited.
+
+## Datasets:
+
+* Coil-100: https://www.kaggle.com/datasets/jessicali9530/coil100
+* Dog Breeds: https://www.kaggle.com/datasets/mohamedchahed/dog-breeds
+* Fashion-MNIST: https://www.kaggle.com/datasets/zalando-research/fashionmnist
+* Handwritten-MNIST: https://www.kaggle.com/datasets/dillsunnyb11/digit-recognizer
+  
