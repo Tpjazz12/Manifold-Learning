@@ -31,7 +31,12 @@
 
 * Input: High-dimensional image data. Output: Image classifications.
 * Models: Comparison of manifold learning models based on traditional and optimal transport theories.
-* ***MDS 
+ * MDS
+ * ISO-Map
+ * T-SNE
+ * Locally Linear Embedding
+ * Spectral Embedding
+ * Wassmap Embeddings  
 
 ### Training
 
@@ -39,7 +44,7 @@
 
 ### Performance Comparison
 
-* Key metrics include accuracy and error rates. Results will be compared in tabular form and through visualizations such as ROC curves.
+* Key metrics include accuracy and error rates. Results will be compared in tabular form and through visualizations.
 
 ### Conclusions
 
@@ -54,8 +59,7 @@
 * Detailed instructions for reproducing the study results and applying the models to new data will be included.
 
 ### Overview of files in repository
-
-* `utils.py`: Helper functions for data processing.
+ .
 * `preprocess.ipynb`: Notebook for initial data preparation.
 * `models.py`: Definitions for manifold learning models.
 * `train.ipynb`: Notebook for model training.
