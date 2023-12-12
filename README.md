@@ -1,4 +1,4 @@
-# Project Title: Optimal Transport in Manifold Learning for Image Classification
+#  Optimal Transport in Manifold Learning for Image Classification
 
 * This repository examines the efficacy of optimal transport-based manifold learning algorithms versus traditional methods in supervised image classification tasks on datasets like Fashion MNIST, Handwritten MNIST, Dog Breeds Classification, Coil-100 and ImageNet.
 
