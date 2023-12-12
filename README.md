@@ -1,13 +1,13 @@
 # Project Title: Optimal Transport in Manifold Learning for Image Classification
 
-* This repository examines the efficacy of optimal transport-based manifold learning algorithms versus traditional methods in supervised image classification tasks on datasets like MNIST and Fashion MNIST.
+* This repository examines the efficacy of optimal transport-based manifold learning algorithms versus traditional methods in supervised image classification tasks on datasets like Fashion MNIST, Handwritten MNIST, Dog Breeds Classification, Coil-100 and ImageNet.
 
 ## Overview
 
 * This project aims to assess the impact of manifold learning techniques on image classification performance.
-  * **Definition of the tasks / challenge**: The challenge is to compare the effectiveness of traditional and optimal transport-based manifold learning methods in the dimensionality reduction of image datasets for improved classification.
-  * **Your approach**: We apply manifold learning algorithms such as PCA, MDS, tSNE, and optimal transport-based Wassmap to transform image datasets, followed by classification using standard machine learning models.
-  * **Summary of the performance achieved**: The comparison between manifold learning methods is quantified using visualization quality, stress evaluation, and classification accuracy metrics.
+  *  The challenge is to compare the effectiveness of traditional and optimal transport-based manifold learning methods in the dimensionality reduction of image datasets for improved classification.
+  *  We apply manifold learning algorithms such as PCA, MDS, tSNE, and optimal transport-based Wassmap to transform image datasets, followed by classification using standard machine learning models.
+  *  The comparison between manifold learning methods is quantified using visualization quality, stress evaluation, and classification accuracy metrics.
 
 ## Summary of Work Done
 
@@ -15,9 +15,9 @@
 
 * Data:
   * Type:
-    * Input: Image datasets (MNIST, Fashion MNIST, etc.), preprocessed for consistent resolution and normalized pixel values.
+    * Input: Image datasets (Fashion MNIST, Handwritten MNIST, Dog Breeds Classification and Coil-100), preprocessed for consistent resolution and normalized pixel values.
   * Size: Varied, with the largest being ImageNet at 167.62 GB.
-  * Instances: Datasets are split into training, testing, and validation sets in a standard manner.
+  * Instances: Datasets are split into training, testing, and validation sets in a standard manner. Applying multi embeddings in Manifold Learning: Multi-Dimension-Scaling, Iso-map, t-SNE, Locally Linear and Spectral Embeddings on each of the dataset.
 
 #### Preprocessing / Clean up
 
@@ -31,6 +31,7 @@
 
 * Input: High-dimensional image data. Output: Image classifications.
 * Models: Comparison of manifold learning models based on traditional and optimal transport theories.
+* ***MDS 
 
 ### Training
 
